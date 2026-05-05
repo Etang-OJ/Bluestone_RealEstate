@@ -125,6 +125,10 @@ Sales model
 
 These features significantly improved predictive performance.
 
+## Data Leakage & Model Validation
+
+To reduce leakage risk, features were reviewed to ensure they would be available at prediction time. The model was evaluated on a held-out test set, and future improvements will include time-based validation to better simulate real-world deployment.
+
 ### Technology Stack
 Component	          Technology
 Language	Python
